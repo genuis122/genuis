@@ -1,0 +1,309 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FBFBFB;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.top {
+	background-image: url(../images/member/t.gif);
+	height: 97px;
+}
+.topz {
+	height: 97px;
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.logo {
+	height: 97px;
+	width: 357px;
+	float: left;
+}
+.userinfo {
+	float: right;
+	height: 97px;
+	line-height: 97px;
+	font-size: 12px;
+	color: #666666;
+}
+.userinfo a {
+	text-decoration: none;
+	margin-right: 5px;
+	margin-left: 5px;
+	color: #0066CC;
+}
+.userinfo a:hover {
+	color: #990000;
+}
+.userinfo span {
+	font-weight: bold;
+	margin-right: 3px;
+	margin-left: 3px;
+	color: #009900;
+}
+.login {
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 38px;
+}
+.login-left {
+	float: left;
+	width: 400px;
+	padding-bottom: 5px;
+	background-image: url(../images/member/fg.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.login-left ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.login-left li {
+	line-height: 48px;
+	height: 48px;
+	display: block;
+	font-size: 12px;
+	color: #707070;
+}
+.login-left input {
+}
+.login-left span {
+	font-size: 14px;
+}
+.login-left #txtUsername,.login-left #txtPassword,.login-left #vdcode {
+	line-height: 28px;
+	height: 28px;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	border: 1px solid #94B4DA;
+	width: 250px;
+	padding-left: 5px;
+	font-weight: bold;
+	color: #666666;
+}
+.login-left form {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 30px;
+	padding-left: 0px;
+}
+.login-left input {
+	margin: 0px;
+	padding: 0px;
+}
+.login-left a {
+	color: #0066CC;
+}
+
+.login-left #btnSignCheck {
+	height: 40px;
+	width: 130px;
+	background-color: #FFFFFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-image: url(../images/member/lo.gif);
+	display: block;
+	margin-top: 20px;
+	margin-left: 60px;
+	cursor: pointer;
+}
+.lonin-r {
+	float: right;
+	width: 400px;
+	background-image: url(../images/member/login-rbj.gif);
+	background-repeat: no-repeat;
+	background-position: center 45px;
+	padding-bottom: 50px;
+}
+.login-zc {
+	display: block;
+	height: 52px;
+	width: 329px;
+	background-image: url(../images/member/re.gif);
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 120px;
+}
+.login-zc:hover {
+	background-image: url(../images/member/re.gif);
+	background-position: left bottom;
+}
+.footer {
+	background-color: #E5E5E5;
+	line-height: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 12px;
+	color: #666666;
+	clear: both;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.footer a {
+	color: #333333;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.footer a:hover {
+	color: #990000;
+	text-decoration: underline;
+}
+.login-fh {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 10px;
+}
+.login-fh a {
+	color: #999999;
+}
+.login-fh a:hover {
+	color: #FF6600;
+}
+.m-zc {
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+.m-zct {
+	background-image: url(../images/member/zct.gif);
+	background-repeat: no-repeat;
+	height: 60px;
+	line-height: 60px;
+	background-position: left center;
+	font-size: 12px;
+	padding-left: 90px;
+	color: #666666;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+.m-zct span {
+	float: right;
+	margin-right: 10px;
+}
+.m-zct a {
+	color: #FF6600;
+}
+.m-zct a:hover {
+	color: #0066CC;
+}
+#regUser ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#regUser li {
+	line-height: 48px;
+	height: 48px;
+	display: block;
+	font-size: 12px;
+	color: #707070;
+}
+#regUser span {
+	font-size: 14px;
+	color: #333333;
+}
+.xy {
+	height: 165px;
+	font-size: 14px;
+	color: #333333;
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+.xyrr {
+	float: right;
+	width: 720px;
+	border: 1px solid #CCCCCC;
+	font-size: 12px;
+	color: #666666;
+	padding: 5px;
+	line-height: 25px;
+	background-color: #FFFFFF;
+}
+.xy span {
+	float: left;
+}
+.registerform input{
+	line-height: 25px;
+	height: 25px;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	border: 1px solid #94B4DA;
+	width: 250px;
+	padding-left: 5px;
+	color: #666666;
+}
+.registerform li div{width:78px;font-size: 14px;color: #333333;float:left;}
+.m-zc #regUser {
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#regUser hr {
+	color: #999999;
+	margin: 0px;
+	padding: 0px;
+	height: 1px;
+	display: block;
+}
+.zcyxx {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+#btnSignCheck {
+	height: 40px;
+	width: 130px;
+	background-color: #FFFFFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-image: url(../images/member/zcb.gif);
+	display: block;
+	margin-top: 10px;
+	margin-left: 75px;
+	cursor: pointer;
+}
+.red {
+	color: #FF0000;
+}
+#_userid,#_email{
+	color: #009966;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12px;
+}
+.#regUser em {
+	color: #009966;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12px;
+}
