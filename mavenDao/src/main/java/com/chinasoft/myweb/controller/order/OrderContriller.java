@@ -25,6 +25,11 @@ public class OrderContriller {
 		model.addAttribute("pageBean", orderAll);
 		return "user/order_list";
 	}
+	@RequestMapping("order_view")
+	public String order(){
+		
+		return "user/order_view";	
+	}
 	public int getpageCode(String pageCode){
 		if(pageCode==null||pageCode.equals("0")||pageCode.equals("")){
 			return 1;

@@ -25,7 +25,7 @@
 					<input type="hidden" name="uid" value="${sessionScope.user.id }">
 						<table cellspacing="1" class="list">
 							<thead>
-								<tr>德尔格
+								<tr>
 									<th>订单编号</th>
 									<th width="15%">价格(元)</th>
 									<th width="20%">下单时间</th>
@@ -39,7 +39,7 @@
 									<td align="center">100.00</td>
 									<td align="center">2017-02-21 11:39:39</td>
 									<td align="center"><font color="#ff0000">送餐中</font> | <a
-										href="user/order_view.jsp">查看</a> | 取消</td>
+										href="<c:url value='order_view' />">查看</a> | 取消</td>
 								</tr>
 							</tbody>
 							<c:forEach items="${pageBean.orderList }" var="orders">
